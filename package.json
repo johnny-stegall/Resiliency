@@ -1,0 +1,14 @@
+{
+	"name": "resilient",
+	"version": "1.0.0",
+	"type": "module",
+	"scripts":
+	{
+		"test": "npx nyc ava --timeout=2m"
+	},
+	"devDependencies":
+	{
+		"ava": "^3.9.0",
+		"nyc": "^15.1.0"
+	}
+}
